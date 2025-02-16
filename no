@@ -1,0 +1,7 @@
+_G.auto = true
+
+
+while _G.auto do
+game:GetService("ReplicatedStorage"):WaitForChild("IncreaseSpeed"):FireServer()
+wait(0.1)
+end
